@@ -12,3 +12,4 @@ const handleOdd = (number) => console.log(`Your number is ${number} and it's odd
 
 let myNumber = Math.floor(Math.random() * 101);
 handleNum(myNumber, handleEven, handleOdd);
+ 
