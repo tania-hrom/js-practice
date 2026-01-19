@@ -27,5 +27,4 @@ export class EBook extends Book {
     static convertToEBook(book, fileFormat) {
         return new EBook(book.title, book.author, book.year, fileFormat);
     }
-
 }
